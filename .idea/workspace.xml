@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="211c77da-769a-4381-857e-a001a345d109" name="Default Changelist" comment="" />
+    <list default="true" id="211c77da-769a-4381-857e-a001a345d109" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sandbox/Main.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/CatInstances.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/with/cats/chapter1/Cat.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/Printable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/with/cats/chapter1/Printable.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableInstances.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/with/cats/chapter1/PrintableInstances.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableSyntax.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/with/cats/chapter1/PrintableSyntax.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
@@ -30,13 +38,13 @@
         <counts>
           <entry key="properties" value="1" />
           <entry key="sbt" value="2" />
-          <entry key="scala" value="7" />
+          <entry key="scala" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Properties" value="1" />
-          <entry key="Scala" value="7" />
+          <entry key="Scala" value="8" />
           <entry key="sbt" value="2" />
         </counts>
       </usages-collector>
@@ -44,13 +52,13 @@
         <counts>
           <entry key="properties" value="5" />
           <entry key="sbtShell" value="16" />
-          <entry key="scala" value="985" />
+          <entry key="scala" value="986" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Properties" value="5" />
-          <entry key="Scala" value="985" />
+          <entry key="Scala" value="986" />
           <entry key="sbtShell" value="16" />
         </counts>
       </usages-collector>
@@ -58,78 +66,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/build.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sbt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/Printable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/CatInstances.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-              <folding>
-                <element signature="e#135#151#0" expanded="true" />
-                <element signature="e#355#376#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-1.4.0-sources.jar!/cats/Show.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableSyntax.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar!/scala/App.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableInstances.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/with/cats/chapter1/Cat.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="48">
+              <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+              <folding>
+                <element signature="e#126#142#0" expanded="true" />
+                <element signature="e#337#358#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,15 +88,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/project/build.properties" />
         <option value="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/Printable.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableSyntax.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/Cat.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/CatInstances.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableInstances.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/Cat.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/with/cats/chapter1/Cat.scala" />
       </list>
     </option>
   </component>
@@ -167,6 +116,7 @@
     <option name="width" value="1676" />
     <option name="height" value="1028" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -208,7 +158,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="with" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cats-sandbox" type="b2602c69:ProjectViewProjectNode" />
@@ -216,8 +166,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="scalaWithCats" type="462c0819:PsiDirectoryNode" />
+              <item name="with" type="462c0819:PsiDirectoryNode" />
+              <item name="cats" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cats-sandbox" type="b2602c69:ProjectViewProjectNode" />
@@ -225,8 +175,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="scalaWithCats" type="462c0819:PsiDirectoryNode" />
+              <item name="with" type="462c0819:PsiDirectoryNode" />
+              <item name="cats" type="462c0819:PsiDirectoryNode" />
               <item name="chapter1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -239,8 +189,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540723990241" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540746836832" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -271,12 +222,12 @@
       </method>
     </configuration>
     <configuration name="CatDemo" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="sandbox.scalaWithCats.chapter1.CatDemo" />
+      <option name="MAIN_CLASS_NAME" value="with.cats.chapter1.CatDemo" />
       <module name="cats-sandbox" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sandbox.scalaWithCats.chapter1.*" />
+          <option name="PATTERN" value="with.cats.chapter1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,18 +316,17 @@
       <updated>1540641057594</updated>
       <workItem from="1540641059313" duration="765000" />
       <workItem from="1540646242226" duration="2290000" />
-      <workItem from="1540720196885" duration="2455000" />
+      <workItem from="1540720196885" duration="3243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5510000" />
+    <option name="totallyTimeSpent" value="6298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1676" height="1028" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25581396" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25581396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -391,8 +341,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.32905984" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" visible="true" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32905984" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.32905984" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32905984" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
@@ -418,17 +368,10 @@
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/build.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/with/cats/chapter1/PrintableInstances.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        <state relative-caret-position="432">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -439,16 +382,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/Printable.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/with/cats/chapter1/PrintableSyntax.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableSyntax.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="216">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
@@ -460,21 +396,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/CatInstances.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/with/cats/chapter1/Printable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="e#135#151#0" expanded="true" />
-            <element signature="e#355#376#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableInstances.scala">
+    <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="312">
+          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/with/cats/chapter1/Cat.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="38" lean-forward="true" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding>
+            <element signature="e#126#142#0" expanded="true" />
+            <element signature="e#337#358#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

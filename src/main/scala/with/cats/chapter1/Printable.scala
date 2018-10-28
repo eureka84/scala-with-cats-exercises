@@ -1,4 +1,4 @@
-package sandbox.scalaWithCats.chapter1
+package `with`.cats.chapter1
 
 trait Printable[A] {
   def format(a: A): String

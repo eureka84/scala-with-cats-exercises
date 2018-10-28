@@ -1,4 +1,4 @@
-package sandbox.scalaWithCats.chapter1
+package `with`.cats.chapter1
 
 object PrintableInstances {
 
