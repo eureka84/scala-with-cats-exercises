@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/asciarra/Projects/scala/cats-sandbox/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableInstances.scala:16:45: not found: type CatInstances[0m
+[0m[[0m[31merror[0m] [0m[0m  implicit val catPrintable = new Printable[CatInstances] {[0m
+[0m[[0m[31merror[0m] [0m[0m                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/asciarra/Projects/scala/cats-sandbox/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableInstances.scala:17:30: not found: type CatInstances[0m
+[0m[[0m[31merror[0m] [0m[0m    override def format(cat: CatInstances): String = {[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/asciarra/Projects/scala/cats-sandbox/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableInstances.scala:18:11: local val name in method format is never used[0m
+[0m[[0m[31merror[0m] [0m[0m      val name = Printable.format(cat.name)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/asciarra/Projects/scala/cats-sandbox/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableInstances.scala:19:11: local val age in method format is never used[0m
+[0m[[0m[31merror[0m] [0m[0m      val age = Printable.format(cat.age)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/asciarra/Projects/scala/cats-sandbox/src/main/scala/sandbox/scalaWithCats/chapter1/PrintableInstances.scala:20:11: local val color in method format is never used[0m
+[0m[[0m[31merror[0m] [0m[0m      val color = Printable.format(cat.color)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
