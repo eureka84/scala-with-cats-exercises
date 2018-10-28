@@ -1,4 +1,4 @@
-package `with`.cats.chapter1
+package scala_with_cats.chapter1
 
 trait Printable[A] {
   def format(a: A): String

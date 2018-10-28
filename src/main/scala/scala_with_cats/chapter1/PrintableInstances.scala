@@ -1,4 +1,4 @@
-package `with`.cats.chapter1
+package scala_with_cats.chapter1
 
 object PrintableInstances {
 
