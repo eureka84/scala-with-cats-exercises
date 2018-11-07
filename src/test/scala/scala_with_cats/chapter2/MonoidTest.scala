@@ -14,13 +14,25 @@ class MonoidTest extends FunSuite with GeneratorDrivenPropertyChecks {
   }
 
   test("OrMonoid") {
-    import Monoids.booleanOrMonoid
+    import BooleanMonoids.orMonoid
     forAll { (x: Boolean, y: Boolean, z: Boolean) => associativeLaw(x, y, z) }
     forAll { x: Boolean => identityLaw(x) }
   }
 
   test("AndMonoid") {
-    import Monoids.booleanAndMonoid
+    import BooleanMonoids.andMonoid
+    forAll { (x: Boolean, y: Boolean, z: Boolean) => associativeLaw(x, y, z) }
+    forAll { x: Boolean => identityLaw(x) }
+  }
+
+  test("xorMonoid") {
+    import BooleanMonoids.xorMonoid
+    forAll { (x: Boolean, y: Boolean, z: Boolean) => associativeLaw(x, y, z) }
+    forAll { x: Boolean => identityLaw(x) }
+  }
+
+  test("xNorMonoid") {
+    import BooleanMonoids.xNorMonoid
     forAll { (x: Boolean, y: Boolean, z: Boolean) => associativeLaw(x, y, z) }
     forAll { x: Boolean => identityLaw(x) }
   }
