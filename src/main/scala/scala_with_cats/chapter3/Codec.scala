@@ -16,11 +16,9 @@ trait Codec[A] {
 }
 
 object Codec {
-  def encode[A](value: A)(implicit c: Codec[A]): String =
-    c.encode(value)
+  def encode[A](value: A)(implicit c: Codec[A]): String = c.encode(value)
 
-  def decode[A](value: String)(implicit c: Codec[A]): A =
-    c.decode(value)
+  def decode[A](value: String)(implicit c: Codec[A]): A = c.decode(value)
 }
 
 object StringSyntax {
@@ -38,5 +36,5 @@ object DoubleSyntax {
 case class Box[A](value: A)
 
 object Box {
-  implicit def boxCodec[A](implicit codec: Codec[A]): Codec[Box[A]] = codec.imap({ a => Box(a) }, { b => b.value })
+  implicit def boxCodec[A](implicit codec: Codec[A]): Codec[Box[A]] = codec.imap(Box(_), _.value)
 }
