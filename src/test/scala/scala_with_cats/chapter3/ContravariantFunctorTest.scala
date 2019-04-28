@@ -3,7 +3,7 @@ package scala_with_cats.chapter3
 import org.scalatest.FunSuite
 import scala_with_cats.chapter1.Printable
 
-class ContavariantFunctorTest extends FunSuite{
+class ContravariantFunctorTest extends FunSuite{
 
   test("printable"){
     import BoxSyntax._
