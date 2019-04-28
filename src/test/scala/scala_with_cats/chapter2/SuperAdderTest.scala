@@ -1,9 +1,9 @@
 package scala_with_cats.chapter2
 
 import cats.Monoid
-import org.scalatest.FunSuite
 import cats.instances.int._
 import cats.instances.option._
+import org.scalatest.FunSuite
 
 case class Order(totalCost: Double, quantity: Double)
 
@@ -11,13 +11,13 @@ object Order {
   implicit val orderMonoid: Monoid[Order] = new Monoid[Order] {
     override def empty: Order = Order(0.0, 0.0)
 
-    override def combine(x: Order, y: Order): Order = Order(x.totalCost + y.totalCost, x.quantity +y.quantity)
+    override def combine(x: Order, y: Order): Order = Order(x.totalCost + y.totalCost, x.quantity + y.quantity)
   }
 }
 
 class SuperAdderTest extends FunSuite {
 
-  test("adding List[Int]"){
+  test("adding List[Int]") {
     val sum = SuperAdder.add(List(1, 2, 3))
     assert(sum == 6)
   }
