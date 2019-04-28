@@ -30,5 +30,11 @@ class MyMonoidTest extends FunSuite with GeneratorDrivenPropertyChecks {
     forAll { x: Boolean => identityLaw(x) }
   }
 
+  test("unionMonoid") {
+    import SetMonoids.unionMonoid
+
+    forAll { (x: Set[Int], y: Set[Int], z: Set[Int]) => associativeLaw(x, y, z)}
+    forAll { x: Set[Int] => identityLaw(x)}
+  }
 
 }

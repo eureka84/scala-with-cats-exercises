@@ -48,3 +48,13 @@ object BooleanMonoids {
     override def combine(x: Boolean, y: Boolean): Boolean = x == y
   }
 }
+
+object SetMonoids {
+
+  implicit def unionMonoid[A]: MyMonoid[Set[A]] = new MyMonoid[Set[A]] {
+    override def empty: Set[A] = Set()
+
+    override def combine(x: Set[A], y: Set[A]): Set[A] = x union y
+  }
+
+}
