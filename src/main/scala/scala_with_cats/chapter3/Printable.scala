@@ -1,15 +1,22 @@
 package scala_with_cats.chapter3
 
-trait Printable[A] {
+import cats.Contravariant
+import scala_with_cats.chapter1.Printable
 
-  def format(value: A): String
+object PrintableInstances {
 
-  def contramap[B](func: B => A): Printable[B] =
-    (value: B) => (func andThen format) (value)
+  implicit val contravariantInstance = new Contravariant[Printable] {
+    override def contramap[A, B](fa: Printable[A])(f: B => A): Printable[B] =
+      (value: B) => (f andThen fa.format) (value)
+  }
+
 
 }
 
 object BoxSyntax {
+
+  import PrintableInstances._
+  import cats.syntax.contravariant._
 
   implicit def boxPrintable[A](implicit p: Printable[A]): Printable[Box[A]] =
     p.contramap[Box[A]](_.value)
