@@ -5,7 +5,7 @@ import TreeSyntax._
 
 class FunctorTest extends FunSuite {
 
-  val f = { x: Int => 2 * x + 1 }
+  val f: Int => Int = 2 * _ + 1
 
   test("map on a leaf") {
     val aLeaf = Leaf(2)

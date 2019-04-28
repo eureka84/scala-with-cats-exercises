@@ -10,11 +10,9 @@ final case class Leaf[A](value: A) extends Tree[A]
 
 
 object Tree {
+  def branch[A](left: Tree[A], right: Tree[A]): Tree[A] = Branch(left, right)
 
-    def branch[A](left: Tree[A], right: Tree[A]): Tree[A] = Branch(left, right)
-
-    def leaf[A](value: A): Tree[A] = Leaf(value)
-
+  def leaf[A](value: A): Tree[A] = Leaf(value)
 }
 
 object TreeSyntax {
