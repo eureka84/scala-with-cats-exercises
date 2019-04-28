@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="211c77da-769a-4381-857e-a001a345d109" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/ContavariantFunctorTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/ContavariantFunctorTest.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -28,7 +26,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Tree.scala">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="70">
-                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                  <caret line="13" selection-start-line="13" selection-end-line="13" />
                 </state>
               </provider>
             </entry>
@@ -36,8 +34,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="508">
-                  <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+                <state relative-caret-position="33">
+                  <caret line="19" selection-start-line="19" selection-end-line="19" />
                   <folding>
                     <element signature="e#34#59#0" expanded="true" />
                     <element signature="e#361#388#0" expanded="true" />
@@ -71,7 +69,7 @@
             <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/FunctorTest.scala">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="216">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
                   <folding>
                     <element signature="e#34#63#0" expanded="true" />
                   </folding>
@@ -86,8 +84,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/ContavariantFunctorTest.scala">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+                <state relative-caret-position="53">
+                  <caret line="6" selection-start-line="6" selection-end-line="6" />
                   <folding>
                     <element signature="e#34#63#0" expanded="true" />
                   </folding>
@@ -304,7 +302,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="TripleE&#9;null&#9;null" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556481357364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556481729050" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
@@ -544,7 +542,7 @@
       <workItem from="1552772317113" duration="111000" />
       <workItem from="1554647066232" duration="50000" />
       <workItem from="1554647201893" duration="9075000" />
-      <workItem from="1556452805889" duration="9906000" />
+      <workItem from="1556452805889" duration="10284000" />
     </task>
     <task id="LOCAL-00001" summary="eq">
       <created>1540762202857</created>
@@ -630,13 +628,17 @@
       <option name="project" value="LOCAL" />
       <updated>1556475014065</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="rewrote contravariant functor instance">
+      <created>1556481423066</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1556481423066</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FunctorTest - 2019.02.19 at 22h 14m 19s.xml">
-      <configuration name="FunctorTest" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
     <history-entry file="FunctorTest - 2019.02.19 at 22h 17m 26s.xml">
       <configuration name="FunctorTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
@@ -664,13 +666,15 @@
     <history-entry file="ContavariantFunctorTest - 2019.04.28 at 20h 09m 53s.xml">
       <configuration name="ContavariantFunctorTest" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
+    <history-entry file="ContavariantFunctorTest - 2019.04.28 at 21h 56m 11s.xml">
+      <configuration name="ContavariantFunctorTest" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57660000" />
+    <option name="totallyTimeSpent" value="58038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1676" height="1027" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.2824755" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -687,7 +691,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.32834226" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.48639825" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.82698584" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="10" weight="0.41240478" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
@@ -722,7 +726,8 @@
     <MESSAGE value="chapter4 monads" />
     <MESSAGE value="some refactoring" />
     <MESSAGE value="contravariant functor tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="contravariant functor tests" />
+    <MESSAGE value="rewrote contravariant functor instance" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewrote contravariant functor instance" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
@@ -922,7 +927,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Tree.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -939,7 +944,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/FunctorTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#34#63#0" expanded="true" />
           </folding>
@@ -953,23 +958,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/ContavariantFunctorTest.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        <state relative-caret-position="33">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
-            <element signature="e#34#63#0" expanded="true" />
+            <element signature="e#34#59#0" expanded="true" />
+            <element signature="e#361#388#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/ContavariantFunctorTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="53">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#34#59#0" expanded="true" />
-            <element signature="e#361#388#0" expanded="true" />
+            <element signature="e#34#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
