@@ -5,7 +5,7 @@ import scala_with_cats.chapter1.Printable
 
 object PrintableInstances {
 
-  implicit val contravariantInstance = new Contravariant[Printable] {
+  implicit val contravariantInstance: Contravariant[Printable] = new Contravariant[Printable] {
     override def contramap[A, B](fa: Printable[A])(f: B => A): Printable[B] =
       (value: B) => (f andThen fa.format) (value)
   }
