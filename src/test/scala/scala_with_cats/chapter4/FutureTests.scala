@@ -1,11 +1,8 @@
 package scala_with_cats.chapter4
 
 import cats.Monad
-import cats.instances.future._
-
-import scala.concurrent._
 import scala.concurrent.duration._
-import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.{Await, Future}
 
 object FutureTests extends App {
   val fm: Monad[Future] = Monad[Future]
