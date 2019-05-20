@@ -8,7 +8,7 @@ class MonadTest extends FunSuite {
   test("Id") {
     import MyMonadInstances._
     import MyMonadSyntax._
-˚
+
     val a: Id[Int] = 4.pure[Id]
     val b: Id[Int] = 5.pure[Id]
 
