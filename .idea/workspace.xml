@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211c77da-769a-4381-857e-a001a345d109" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/FutureTests.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter4/MonadTest.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/MyMonad.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/MyMonad.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -20,42 +22,68 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/ContravariantFunctorTest.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding>
-                <element signature="e#34#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding>
-                <element signature="e#34#59#0" expanded="true" />
-                <element signature="e#361#388#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter1/Printable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="-2283" />
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/FutureTests.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="81">
+                  <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/Eval.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/MyMonad.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="378">
+                  <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+                  <folding>
+                    <element signature="e#34#71#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter4/MonadTest.scala">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#34#63#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -95,7 +123,6 @@
         <option value="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter2/Monoid.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Codec.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/InvariantFunctorTest.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/MyMonad.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/Eval.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter1/PrintableInstances.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter2/SuperAdderTest.scala" />
@@ -108,6 +135,11 @@
         <option value="$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/ContavariantFunctorTest.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/ContravariantFunctorTest.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/Future.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/FutureTests.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/MyId.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/MyMonad.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter4/MonadTest.scala" />
       </list>
     </option>
   </component>
@@ -156,6 +188,23 @@
               <item name="cats-sandbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="cats-sandbox" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala_with_cats" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cats-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cats-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="scala_with_cats" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cats-sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cats-sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -172,38 +221,6 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="scala_with_cats" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cats-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cats-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala_with_cats" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cats-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cats-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala_with_cats" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cats-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cats-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="scala_with_cats" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cats-sandbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cats-sandbox" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,7 +231,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="TripleE&#9;null&#9;null" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557170888106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558380375737" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="ScalaTest" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.ScalaTest" value="org.scalatest.FunSuite" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
@@ -225,7 +242,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -252,9 +269,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="ScalaTest.ContavariantFunctorTest">
+  <component name="RunManager" selected="ScalaTest.MonadTest.Id">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FutureTests" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala_with_cats.chapter4.FutureTests" />
+      <module name="cats-sandbox" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala_with_cats.chapter4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,9 +337,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvariantFunctorTest" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+    <configuration name="MonadTest.Id" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <module name="cats-sandbox" />
-      <setting name="path" value="scala_with_cats.chapter3.InvariantFunctorTest" />
+      <setting name="path" value="scala_with_cats.chapter4.MonadTest" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
       <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -317,8 +348,9 @@
       <setting name="useSbt" value="false" />
       <setting name="useUiWithSbt" value="false" />
       <envs />
-      <setting name="testKind" value="Class" />
-      <setting name="path" value="scala_with_cats.chapter3.InvariantFunctorTest" />
+      <setting name="testKind" value="Test name" />
+      <setting name="path" value="scala_with_cats.chapter4.MonadTest" />
+      <setting name="testName" value="Id" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -340,29 +372,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScalaTests in 'scala_with_cats'" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true" nameIsGenerated="true">
-      <module name="cats-sandbox" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="All in package" />
-      <setting name="package" value="scala_with_cats" />
-      <buffered bufClass="scala_with_cats.chapter1.CatTest" />
-      <buffered bufClass="scala_with_cats.chapter1.CatTest" />
-      <buffered bufClass="scala_with_cats.chapter2.MyMonoidTest" />
-      <buffered bufClass="scala_with_cats.chapter2.MyMonoidTest" />
-      <buffered bufClass="scala_with_cats.chapter2.SuperAdderTest" />
-      <buffered bufClass="scala_with_cats.chapter2.SuperAdderTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -374,18 +383,18 @@
     </configuration>
     <list>
       <item itemvalue="ScalaTest.FunctorTest" />
-      <item itemvalue="ScalaTest.InvariantFunctorTest" />
-      <item itemvalue="ScalaTest.ScalaTests in 'scala_with_cats'" />
       <item itemvalue="ScalaTest.MyMonoidTest" />
       <item itemvalue="ScalaTest.ContavariantFunctorTest" />
+      <item itemvalue="Application.FutureTests" />
+      <item itemvalue="ScalaTest.MonadTest.Id" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="ScalaTest.MonadTest.Id" />
+        <item itemvalue="Application.FutureTests" />
         <item itemvalue="ScalaTest.ContavariantFunctorTest" />
         <item itemvalue="ScalaTest.FunctorTest" />
         <item itemvalue="ScalaTest.MyMonoidTest" />
-        <item itemvalue="ScalaTest.InvariantFunctorTest" />
-        <item itemvalue="ScalaTest.FunctorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -454,7 +463,8 @@
       <workItem from="1552772317113" duration="111000" />
       <workItem from="1554647066232" duration="50000" />
       <workItem from="1554647201893" duration="9075000" />
-      <workItem from="1556452805889" duration="15249000" />
+      <workItem from="1556452805889" duration="15326000" />
+      <workItem from="1557171036655" duration="6865000" />
     </task>
     <task id="LOCAL-00001" summary="eq">
       <created>1540762202857</created>
@@ -554,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556483434210</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="explicit type">
+      <created>1557170918368</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557170918368</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -590,21 +607,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63003000" />
+    <option name="totallyTimeSpent" value="69945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1676" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2824755" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20991433" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32941177" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32752994" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3272727" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -648,7 +666,8 @@
     <MESSAGE value="contravariant functor tests" />
     <MESSAGE value="rewrote contravariant functor instance" />
     <MESSAGE value="fixed typo" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed typo" />
+    <MESSAGE value="explicit type" />
+    <option name="LAST_COMMIT_MESSAGE" value="explicit type" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/project/plugins.sbt">
@@ -665,27 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Codec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/MyMonad.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/Eval.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -728,14 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -807,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-1.4.0-sources.jar!/cats/instances/package.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -842,16 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/InvariantFunctorTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding>
-            <element signature="e#34#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/FunctorTest.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -872,10 +845,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter1/Printable.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="346">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#34#59#0" expanded="true" />
+            <element signature="e#361#388#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -889,13 +866,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Printable.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter1/Printable.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="54">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter3/InvariantFunctorTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
-            <element signature="e#34#59#0" expanded="true" />
-            <element signature="e#361#388#0" expanded="true" />
+            <element signature="e#34#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter3/Codec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/Future">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-2283" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.typelevel/cats-core_2.12/jars/cats-core_2.12-1.4.0.jar!/cats/Monad.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-1.4.0-sources.jar!/cats/instances/future.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-1.4.0-sources.jar!/cats/instances/package.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/FutureTests.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/MyId.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/Eval.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala_with_cats/chapter4/MyMonad.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#34#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/scala_with_cats/chapter4/MonadTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#34#63#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,5 +1,7 @@
 package scala_with_cats.chapter4
 
+import scala_with_cats.chapter4.Id.Id
+
 import scala.language.higherKinds
 
 trait MyMonad[F[_]] {
@@ -12,12 +14,14 @@ trait MyMonad[F[_]] {
 
 }
 
-
-object Examples {
-
+object Id {
   type Id[A] = A
+}
 
-  implicit val myIdMonad = new MyMonad[Id] {
+
+object IdInstances {
+
+  implicit val myIdMonad: MyMonad[Id] = new MyMonad[Id] {
 
     override def pure[A](a: A): Id[A] = a
 
