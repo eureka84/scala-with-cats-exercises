@@ -15,7 +15,7 @@ class MonadTest extends FunSuite {
     def square[F[_]](x: F[Int], y: F[Int])(implicit m: MyMonad[F]): F[Int] =
       m.flatMap(x)(a => m.map(y)(b => a * a + b * b))
 
-    assertResult(square(a, b))(41: Id[Int])
+    assertResult(square(a, b))(41)
   }
 
 }

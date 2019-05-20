@@ -17,7 +17,6 @@ object Id {
   type Id[A] = A
 }
 
-
 object MyMonadInstances {
 
   implicit val myIdMonad: MyMonad[Id] = new MyMonad[Id] {
