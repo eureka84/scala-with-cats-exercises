@@ -46,6 +46,6 @@ object FormValidation {
 
   def nonNegative(name: String)(data: Int): FailFast[Int] =
     Right(data).
-  ensure(List(s"$name must be non-negative"))(_ >= 0)
+      ensure(List(s"$name must be non-negative"))(_ >= 0)
 
 }
